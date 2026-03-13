@@ -1,0 +1,120 @@
+[
+  {
+    "title": "FreshCart",
+    "description": "Modern e-commerce web app with authentication and responsive UI.",
+    "category": "frontend",
+    "tech": ["React", "Vite", "Tailwind"],
+    "github": "https://github.com/FatmaMoataz/freshCart",
+    "demo": "https://fresh-cart-omega-one.vercel.app",
+    "image":"../images/freshCart.png"
+  },
+  {
+    "title": "LetsGPT",
+    "description": "Full-stack AI chat platform with community features.",
+    "category": "fullstack",
+    "tech": ["React", "Node.js", "MongoDB"],
+    "github": "https://github.com/FatmaMoataz/LetsGPT",
+    "demo": "https://lets-gpt.vercel.app",
+    "image": "../images/letsgpt.png"
+  },
+    {
+  "title": "Bookmarker",
+  "description": "A simple web app to save, manage, and visit favorite websites. Includes form validation, Local Storage, and easy bookmark management.",
+  "category": "web",
+  "tech": ["HTML", "CSS", "JavaScript", "Local Storage", "Bootstrap"],
+  "github": "https://github.com/FatmaMoataz/bookmarker",
+  "demo": "https://fatmamoataz.github.io/bookmarker/",
+  "image": "../images/bookmarker.png"
+    }, 
+    {
+  "title": "Saraha App Backend",
+  "description": "Backend for an anonymous messaging app with Node.js & Express, featuring JWT authentication, Google OAuth, email verification, secure uploads, and MongoDB integration.",
+  "category": "backend",
+  "tech": ["Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Google OAuth", "Nodemailer", "Bcrypt.js", "Multer", "Cloudinary", "Joi", "Helmet"],
+  "github": "https://github.com/FatmaMoataz/Saraha_App",
+  "demo": "https://documenter.getpostman.com/view/36839356/2sB3B8qYPq",
+  "image": "../images/saraha.png"
+},
+{
+  "title": "Human Activity Recognition",
+  "description": "Applied Random Forest to classify human activities from sensor data. Achieved ~98% accuracy with detailed evaluation metrics and confusion matrix visualization.",
+  "category": "data",
+  "tech": ["Python", "Pandas", "Scikit-learn", "Matplotlib", "Seaborn", "Machine Learning"],
+  "github": "https://github.com/FatmaMoataz/Human_Activity_Recognition",
+  "demo": "#",
+  "image": "../images/human-activity-recognition.png"
+},
+{
+  "title": "Mealify Route",
+  "description": "A modern, responsive web app for meal planning and recipes. Built with HTML and CSS for an engaging user interface.",
+  "category": "frontend",
+  "tech": ["HTML", "CSS"],
+  "github": "https://github.com/FatmaMoataz/mealify_route",
+  "demo": "https://fatmamoataz.github.io/mealify_route/",
+  "image": "../images/mealify.png"
+},
+{
+  "title": "Netflix Dashboard",
+  "description": "A Tableau dashboard visualizing Netflix's content catalog. Includes genre analysis, country-wise availability, time-series trends, and interactive filters.",
+  "category": "data",
+  "tech": ["Tableau", "Data Visualization"],
+  "github": "https://github.com/FatmaMoataz/Netflix_Dashboard",
+  "demo": "https://public.tableau.com/app/profile/fatma.moataz/viz/Netflix_17515384111860/Netflix",
+  "image": "../images/netflix.png"
+},
+{
+  "title": "BloomWatch (Hackathon Project)",
+  "description": "Frontend development in React for an interactive plant exploration app with AI-based identification, smart info cards, chat & lens bot, and gamified learning interface.",
+  "category": "frontend",
+  "tech": ["React", "JavaScript", "HTML", "CSS", "Vite", "AI Integration"],
+  "github": "https://github.com/FatmaMoataz/bloom-watch",
+  "demo": "https://bloom-watch-sigma.vercel.app",
+  "image": "../images/bloom-watch.png"
+},
+{
+  "title": "Movie Review Sentiment Analysis",
+  "description": "Python-based sentiment analysis tool classifying movie reviews as positive or negative using NLTK and Naive Bayes. Includes feature analysis and real-time text classification.",
+  "category": "data",
+  "tech": ["Python", "NLTK", "Naive Bayes", "Machine Learning", "Text Preprocessing"],
+  "github": "https://github.com/FatmaMoataz/Sentiment_Analysis",
+  "demo": "#"
+},
+{
+  "title": "Social App Backend",
+  "description": "Full backend for a social networking app using Node.js, TypeScript, MongoDB, Socket.io for real-time chat, AWS S3 for media uploads, JWT/OAuth authentication, and GraphQL endpoints. Modular and scalable architecture.",
+  "category": "backend",
+  "tech": ["Node.js", "TypeScript", "Express", "MongoDB", "Socket.io", "AWS S3", "JWT", "OAuth", "GraphQL"],
+  "github": "https://github.com/FatmaMoataz/Social_App",
+  "demo": "https://documenter.getpostman.com/view/36839356/2sB3BLj7bg",
+  "image": "../images/social-app.png"
+},
+{
+  "title": "E-Commerce Backend (NestJS)",
+  "description": "Backend for an e-commerce platform built with NestJS and TypeScript, featuring modular architecture, scalable APIs, unit & e2e testing, and efficient server-side operations.",
+  "category": "backend",
+  "tech": ["Node.js", "TypeScript", "NestJS", "Express", "MongoDB", "Unit Testing", "E2E Testing"],
+  "github": "https://github.com/FatmaMoataz/NestJS",
+  "demo": "https://documenter.getpostman.com/view/36839356/2sB3QNr9Au",
+  "image": "../images/ecommerce-backend.png"
+},
+{
+  "title": "House Price Prediction",
+  "description": "Machine learning project predicting house prices using property features. Includes data cleaning, visualization, EDA, model training with Linear Regression, and performance evaluation.",
+  "category": "data",
+  "tech": ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-Learn"],
+  "github": "https://github.com/FatmaMoataz/House_Price_Prediction",
+  "demo": "#"
+},
+{
+  "title": "Carpool System",
+  "description": "A carpool management system designed during a Microsoft internship. Includes high-fidelity UI design, full prototype, and case study presentation showcasing user flow, booking, and management features.",
+  "category": "design",
+  "tech": ["Figma", "UI/UX Design", "Prototyping", "High-Fidelity Design", "Case Study Presentation"],
+  "github": "#",
+  "demo": {
+    "Case Study Presentation": "https://www.figma.com/design/wfvLoJxLgYlY1UXPuup7Iv/Presentation-Carpool?t=FDuupcfgO26J17BC-1",
+    "UI Design & Prototype": "https://www.figma.com/design/jvai9CDReLHb9qEpkn2eM4/Carpool-System-UI?t=FDuupcfgO26J17BC-1"
+  },
+    "image": "../images/carpool.png"
+}
+]

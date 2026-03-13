@@ -1,0 +1,42 @@
+[
+  {
+    "title": "LLMs Intern",
+    "company": "Tips Hindawi",
+    "date": "Mar 2026 - Present",
+    "location": "Remote",
+    "description": "Working on Large Language Models (LLMs) and generative AI solutions.",
+    "icon": "bot"
+  },
+  {
+    "title": "Data Analyst Bootcamp",
+    "company": "Semicolon Codes",
+    "date": "Feb 2026 - Mar 2026",
+    "location": "Remote",
+    "description": "Data analysis training focused on data cleaning, exploratory analysis, and extracting insights using Excel",
+    "icon": "database"
+  },
+  {
+    "title": "Frontend React Developer",
+    "company": "Web Masters",
+    "date": "Feb 2025 - Jul 2025",
+    "location": "Remote",
+    "description": "Frontend development with React and modern JavaScript.",
+    "icon": "layout"
+  },
+  {
+    "title": "Full Stack Development Program",
+    "company": "Route",
+    "date": "Sep 2024 - Oct 2025",
+    "location": "Alexandria, Egypt (Hybrid)",
+    "description": "Completed a full stack development program covering React, Node.js, APIs, and database integration.",
+    "icon": "code"
+  },
+  {
+    "title": "Summer Engineering Program",
+    "company": "Microsoft",
+    "date": "Jul 2024",
+    "location": "Cairo, Egypt (Hybrid)",
+    "description": "Intensive engineering program focusing on software scale and professional development.",
+    "icon": "microsoft"
+  }
+]

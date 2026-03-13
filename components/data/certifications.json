@@ -1,0 +1,98 @@
+{
+  "certifications": [
+    {
+      "title": "Certified Data Scientist",
+      "issuer": "PathLine Training Academy",
+      "date": "Feb 2026",
+      "description": "Data science level 2 - Advanced analytics and machine learning workflows",
+      "icon": "python",
+      "skills": ["Python", "Machine Learning", "Data Analysis"],
+      "color": "from-purple-500/20 to-blue-500/20"
+    },
+    {
+      "title": "AI Fundamentals with Capstone Project",
+      "issuer": "IBM",
+      "date": "Jan 2026",
+      "description": "Comprehensive AI fundamentals with hands-on capstone implementation",
+      "icon": "cpu",
+      "skills": ["AI", "Machine Learning", "Capstone Project"],
+      "color": "from-blue-500/20 to-cyan-500/20"
+    },
+    {
+      "title": "Big Data | Data Engineering",
+      "issuer": "نقابة المهندسين",
+      "date": "Dec 2025",
+      "description": "Big Data engineering principles and infrastructure",
+      "icon": "database",
+      "skills": ["Big Data", "Data Engineering", "ETL"],
+      "color": "from-green-500/20 to-emerald-500/20"
+    },
+    {
+      "title": "Web Designer",
+      "issuer": "National Telecommunication Institute (NTI)",
+      "date": "Jan 2026",
+      "description": "Professional web design and development",
+      "icon": "palette",
+      "skills": ["Web Design", "UI/UX", "HTML/CSS"],
+      "color": "from-pink-500/20 to-rose-500/20"
+    },
+    {
+      "title": "Full Stack Development",
+      "issuer": "Route",
+      "date": "Oct 2025",
+      "description": "End-to-end full stack web development",
+      "icon": "code",
+      "skills": ["React", "Node.js", "MongoDB"],
+      "color": "from-orange-500/20 to-yellow-500/20"
+    },
+    {
+      "title": "Elements of AI for Business",
+      "issuer": "MinnaLearn",
+      "date": "Oct 2025",
+      "description": "AI applications and implications in business contexts",
+      "icon": "brain",
+      "skills": ["AI for Business", "Strategy", "Innovation"],
+      "color": "from-indigo-500/20 to-purple-500/20",
+      "credential": "Show credential"
+    },
+    {
+      "title": "React Developer",
+      "issuer": "Cellula Technologies",
+      "date": "Oct 2025",
+      "description": "Advanced React development and best practices",
+      "icon": "code-2",
+      "skills": ["React", "Hooks", "State Management"],
+      "color": "from-cyan-500/20 to-blue-500/20"
+    },
+    {
+      "title": "AWS Educate Introduction to Generative AI",
+      "issuer": "Amazon Web Services (AWS)",
+      "date": "Jul 2025",
+      "description": "Foundational knowledge of generative AI on AWS",
+      "icon": "cloud",
+      "skills": ["Generative AI", "AWS", "LLMs"],
+      "color": "from-yellow-500/20 to-orange-500/20",
+      "credential": "Show credential"
+    },
+    {
+      "title": "Frontend Development Training Program",
+      "issuer": "Web Masters",
+      "date": "Jul 2025",
+      "description": "Comprehensive frontend development training",
+      "icon": "layout",
+      "skills": ["HTML/CSS", "JavaScript", "Responsive Design"],
+      "color": "from-red-500/20 to-pink-500/20"
+    },
+    {
+      "title": "AI and Machine Learning Foundations",
+      "issuer": "Sprints",
+      "date": "Jun 2025",
+      "description": "Foundations of AI/ML with NumPy and Pandas",
+      "icon": "brain-circuit",
+      "skills": ["NumPy", "Pandas", "Machine Learning"],
+      "color": "from-violet-500/20 to-purple-500/20",
+      "credential": "Show credential",
+      "credentialId": "ID - SPR - 1U9F40"
+    }
+  ]
+}
