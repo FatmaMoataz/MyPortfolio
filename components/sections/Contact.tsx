@@ -12,23 +12,41 @@ import {
   MessageSquare,
   Sparkles,
 } from 'lucide-react'
-import { useState } from 'react'
+import { useState, FormEvent, ChangeEvent } from 'react'
+
+// Define types for form data
+interface FormData {
+  name: string;
+  email: string;
+  message: string;
+}
+
+// Define type for social links
+interface SocialLink {
+  name: string;
+  icon: React.ElementType;
+  url: string;
+  color: string;
+}
+
+// Define possible submit status
+type SubmitStatus = 'success' | null;
 
 export default function Contact() {
-  const [copied, setCopied] = useState(false)
-  const [formData, setFormData] = useState({
+  const [copied, setCopied] = useState<boolean>(false)
+  const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',
     message: ''
   })
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [submitStatus, setSubmitStatus] = useState(null)
+  const [isSubmitting, setIsSubmitting] = useState<boolean>(false)
+  const [submitStatus, setSubmitStatus] = useState<SubmitStatus>(null)
 
-  const email = "fatmamoataz65@gmail.com" 
-  const phone = "+20 127 325 4277 | +20 101 589 8228"
-  const location = "Alexandria, Egypt"
+  const email: string = "fatmamoataz65@gmail.com" 
+  const phone: string = "+20 127 325 4277 | +20 101 589 8228"
+  const location: string = "Alexandria, Egypt"
 
-  const socialLinks = [
+  const socialLinks: SocialLink[] = [
     { 
       name: 'GitHub', 
       icon: Github, 
@@ -49,13 +67,13 @@ export default function Contact() {
     }
   ]
 
-  const copyToClipboard = (text:string) => {
+  const copyToClipboard = (text: string): void => {
     navigator.clipboard.writeText(text)
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
   }
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>): Promise<void> => {
     e.preventDefault()
     setIsSubmitting(true)
     
@@ -71,11 +89,12 @@ export default function Contact() {
     }, 1500)
   }
 
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    })
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>): void => {
+    const { name, value } = e.target
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }))
   }
 
   return (
@@ -289,7 +308,7 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     required
-                    rows="5"
+                    rows={5}
                     className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-[#8b5cf6] focus:ring-1 focus:ring-[#8b5cf6] transition-all resize-none"
                     placeholder="Hi Fatma, I'd like to discuss..."
                   />

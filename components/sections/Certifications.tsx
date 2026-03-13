@@ -12,11 +12,29 @@ import {
   Code
 } from "lucide-react";
 
-export default function Certifications() {
-  const { certifications } = certificationsData;
+interface Certification {
+  title: string;
+  issuer: string;
+  date: string;
+  description: string;
+  skills: string[];
+  credential?: string;
+  credentialId?: string;
+  color?: string;
+}
 
-  // Group certifications by year
-  const groupedByYear = certifications.reduce((acc, cert) => {
+interface CertificationsData {
+  certifications: Certification[];
+}
+
+// Type assertion for the imported JSON
+const typedCertificationsData = certificationsData as CertificationsData;
+
+export default function Certifications() {
+  const { certifications } = typedCertificationsData;
+
+  // Group certifications by year - with proper typing
+  const groupedByYear = certifications.reduce<Record<string, Certification[]>>((acc, cert) => {
     const year = cert.date.split(' ')[1];
     if (!acc[year]) acc[year] = [];
     acc[year].push(cert);
@@ -31,7 +49,13 @@ export default function Certifications() {
   const uniqueSkills = new Set(certifications.flatMap(c => c.skills)).size;
   const activeYears = years.length;
 
-  const stats = [
+  interface Stat {
+    label: string;
+    value: string | number;
+    icon: React.ElementType;
+  }
+
+  const stats: Stat[] = [
     { label: "Total Certs", value: totalCerts, icon: Award },
     { label: "Organizations", value: uniqueIssuers, icon: Briefcase },
     { label: "Technologies", value: uniqueSkills, icon: Code },
@@ -115,7 +139,7 @@ export default function Certifications() {
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {groupedByYear[year].map((cert, index) => (
+              {groupedByYear[year].map((cert: Certification, index: number) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
@@ -153,7 +177,7 @@ export default function Certifications() {
 
                     {/* Skills tags */}
                     <div className="flex flex-wrap gap-2 mb-4 mt-auto">
-                      {cert.skills.map((skill, i) => (
+                      {cert.skills.map((skill: string, i: number) => (
                         <span 
                           key={i}
                           className="text-xs px-2 py-1 bg-white/5 rounded-full text-gray-300 border border-white/10 hover:bg-[#8b5cf6]/10 hover:border-[#8b5cf6]/30 transition-all duration-300"
