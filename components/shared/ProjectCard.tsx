@@ -16,14 +16,14 @@ export default function ProjectCard({ project, index }: any) {
     if (typeof project.demo === "string") {
       if (project.demo === "#") return null;
       return (
-        <Button asChild className="w-full bg-[#8b5cf6] hover:bg-[#7c3aed] transition-colors duration-300">
+        <Button className="w-full bg-[#8b5cf6] hover:bg-[#7c3aed] transition-colors duration-300">
           <a href={project.demo} target="_blank" rel="noreferrer">Live Demo</a>
         </Button>
       );
     }
     
     return Object.entries(project.demo).map(([label, url]: [string, any]) => (
-      <Button key={label} asChild variant="outline" className="w-full text-[10px] px-1 border-[#8b5cf6] text-[#8b5cf6] hover:bg-[#8b5cf6]/10">
+      <Button key={label} variant="outline" className="w-full text-[10px] px-1 border-[#8b5cf6] text-[#8b5cf6] hover:bg-[#8b5cf6]/10">
         <a href={url} target="_blank" rel="noreferrer">{label}</a>
       </Button>
     ));
@@ -76,7 +76,7 @@ export default function ProjectCard({ project, index }: any) {
              {renderDemoButtons()}
           </div>
           {project.github !== "#" && (
-            <Button variant="ghost" asChild className="w-full text-slate-500 hover:text-white hover:bg-white/5 transition-all">
+            <Button variant="ghost" className="w-full text-slate-500 hover:text-white hover:bg-white/5 transition-all">
               <a href={project.github} target="_blank" rel="noreferrer">View Source Code</a>
             </Button>
           )}
