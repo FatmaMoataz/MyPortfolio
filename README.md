@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Fatma Moataz Portfolio
 
-## Getting Started
+Personal portfolio website showcasing my projects, technical skills, experience, and achievements as a Software Engineer.
 
-First, run the development server:
+Built with modern web technologies and focused on performance, clean UI, and scalability.
+
+## 🚀 Live Website
+[https://your-portfolio-link.com](https://my-portfolio-lhqy.vercel.app/)
+
+---
+
+## 👩‍💻 About Me
+
+I'm a Software Engineer passionate about building scalable web applications and modern digital experiences.
+
+My work focuses on:
+
+- Full Stack Web Development
+- Scalable Backend Systems
+- AI & Data-driven Applications
+- Clean and maintainable code
+
+I have experience working with React, Node.js, and modern frontend tooling, and I'm currently expanding my expertise in Machine Learning and Data Systems.
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React
+- Next.js
+- Tailwind CSS
+- Framer Motion
+- Shadcn UI
+
+### Visualization
+- Recharts
+- Tremor
+
+### Development Tools
+- TypeScript
+- ESLint
+- Git & GitHub
+
+---
+
+## ✨ Features
+
+- Responsive modern UI
+- Interactive dashboard
+- GitHub contribution visualization
+- Project filtering by domain
+- Experience & certifications timeline
+- Contact section
+- Performance optimized with Next.js
+
+---
+
+## 📂 Sections
+
+The portfolio includes:
+
+- Hero Section
+- About Me
+- Projects
+- Dashboard Analytics
+- Skills
+- Experience Timeline
+- Certifications
+- Contact
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/FatmaMoataz/portfolio.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## 📊 Project Purpose
 
-To learn more about Next.js, take a look at the following resources:
+- This project was built to:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Showcase my software engineering projects
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Present my technical skills
 
-## Deploy on Vercel
+- Share my professional journey
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Provide a central hub for recruiters and collaborators
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📬 Contact
+
+If you'd like to collaborate or discuss opportunities:
+
+Email: fatmamoataz65@gmail.com
+
+## 📜 License
+
+This project is licensed under the MIT License.
