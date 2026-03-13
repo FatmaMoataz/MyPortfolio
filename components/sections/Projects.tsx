@@ -1,4 +1,3 @@
-"use client";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import projects from "../data/projects.json";
 import ProjectCard from "../shared/ProjectCard";
