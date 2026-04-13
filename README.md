@@ -5,7 +5,7 @@ Personal portfolio website showcasing my projects, technical skills, experience,
 Built with modern web technologies and focused on performance, clean UI, and scalability.
 
 ## 🚀 Live Website
-[https://your-portfolio-link.com](https://my-portfolio-lhqy.vercel.app/)
+[My Portfolio](https://my-portfolio-lhqy.vercel.app/)
 
 ---
 
